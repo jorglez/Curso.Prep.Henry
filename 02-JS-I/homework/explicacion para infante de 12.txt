@@ -1,0 +1,49 @@
+VARIABLES:
+es como una caja con etiqueta, vas a poder meter datos ahí, como un texto, un número, un grupo de valores, etc.
+
+    let miVariable = 200
+
+Y cada vez que necesites usar lo que está dentro de la caja, lo vas a poder encontrar buscándolo por el nombre de su etiqueta.
+
+    console.log(miVariable)
+
+STRING:
+Empecemos por definir cada elemento de un string: en la vida diaria nosotros usamos letras para escribir: "a", "b", etc.
+En programación a cada letra se le llama caracter.
+Cuando juntamos varios carateres para formar una palabra como "hola", se forma un hilo de caracteres, justo éso significa "string":"hilo".
+Entonces cuando tenemos un string, es lo mismo que decir que hicimos un hilo de letras o caracteres para formar una palabra o una oración 
+
+FUNCIONES:
+Una función es un proceso que va convertir un dato en algo más.
+Se le puede entregar un argumento para que sea lo que convierte en algo nuevo.
+La función tiene que entregar el resultado de su proceso usando la palabra "return".
+Digamos por ejemplo que un panadero tiene masa ya preparada pero tiene que hornearla para que se convierta en pan:
+
+    function hornear(masa){
+        pan = masa + horno + tiempo
+        return pan
+    }
+
+El nombre del proceso o función que se tiene que hacer para obtener pan es "hornear".
+La masa es el ARGUMENTO que se le entrega a la función para que la convierta en pan.
+El horno va a "devolver" (return) la masa ya convertida en pan.
+
+
+DECLARACIONES IF:
+Los if son como acciones que se ejecutan solo si se cumple una condición, como cuando quieres jugar videojuegos pero tienes que terminar tu tarea primero:
+
+    if(tareaTerminada){
+        return "puedo jugar videojuegos"
+    }
+
+La condición que debe cumplirse es que hayas terminado la tarea.
+La acción que vas a poder ejecutar es jugar videojuegos.
+Y si no has terminado la tarea, no puedes jugar. 
+
+VALORES BOOLEANOS:
+un valor booleano es simplemente decir que sí o no a una pregunta. True es sí y false es no. Por ejemplo:
+-"¿Te llamas Mario?" -"No"
+ equivale a un false, porque no es tu nombre
+
+-"¿Tienes 12 años?" -"Sí"
+equivale a un true, porque sí tienes 12 años
