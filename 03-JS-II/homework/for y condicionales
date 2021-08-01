@@ -1,0 +1,25 @@
+FOR:
+usamos for cuando queremos que algo se repita varias veces hasta que se cumpla algo, por ejemplo, digamos que quieres llenar una piscina con agua usando cubetas, y la piscina se llena con el equivalente a 100 cubetas de agua, entonces tendrás que llevar cubeta por cubeta hasta llenar la piscina:
+
+    for(cubeta = 1; cubeta <= 100; cubeta++){
+        contenidoPiscina = contenidoPiscina + cubeta
+    }
+
+&&:
+hay veces que necesitamos varias cosas para poder hacer algo, y si una falta ya no se puede hacer nada. Si quisieras comprar algo en la tienda primero debe estar abierta la tienda, además debe tener el producto que quieres comprar, y antes de comprarlo necesitas el dinero suficiente. Si una de las condiciones no se cumple, no podrás comprar lo que quieres:
+
+    if(tienda == "abierta" && producto == "existe" && dinero == "suficiente"){
+        return "puedes comprar el producto"
+    }
+
+||:
+usando el ejemplo anterior, a veces puedes cumplir una acción si se cumple alguna condición de muchas. Digamos que la tienda está abierta y sí tienen el producto que quieres comprar, pero no tienes dinero. Si tu papá te da dinero para comprarlo, entonces sí puedes hacerlo:
+
+    if(dineroPropio == "suficiente" || dineroPrestado == true){
+        return "puedes comprar el producto"
+    }
+
+!:
+A veces nos interesa hacer algo bajo cualquier condición excepto una, como salir a jugar al parque. Puedes hacerlo si está soleado o nublado, si hay algo de viento o si hace frío. Pero no podrás hacerlo si está lloviendo:
+
+    if(!lluvia) return "puedes salir a jugar"
