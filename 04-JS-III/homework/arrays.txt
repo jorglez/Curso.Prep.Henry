@@ -1,0 +1,4 @@
+Los array son como una fila de cajas, cada una puede almacenar un dato y tiene un número que la identifica dentro de la fila (la enumeración comienza desde el 0). Si quieres tomar algo de la fila de cajas, la buscas por el nombre de la fila y el número del lugar en el que está la caja:
+
+    let juguetes = ["pelota", "yoyo", "patines"]
+    console.log(juguetes[0]) //= "pelota"

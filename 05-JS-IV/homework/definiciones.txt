@@ -1,0 +1,30 @@
+Objetos:
+hubo un momento en el que los programadores se dieron cuenta que sería muy util poder imitar la vida real y crear cosas dentro de sus programas que fueran definidos por características, como los objetos reales.
+Así como un auto tiene llantas, asientos, motor y otras cosas, los objetos en programación tienen propiedades que las hacen únicas, y al mismo tiempo pueden agruparse con otras que comparten sus características
+
+Propiedades:
+A cada característica que conforma un objeto se le llama "propiedad", pueden ser cualquier tipo de dato (numero, texto, booleano), pero también pueden ser funciones, otros objetos o arreglos
+
+Bucle for-in:
+cuando quieres interactuar con cada propiedad de un objeto, puedes usar un ciclo for-in, que podría leerse como "por cada propiedad que contenga mi elemento, quiero que se haga lo siguiente":
+
+    for(calificacion in estudiante){
+        console.log(calificacion)
+    }
+
+Notacion de punto:
+Se usa cuando quieres usar el nombre de una propiedad del objeto para acceder a ella o cuando quieres usar un método en la propiedad o cuando el nombre de la propiedad viene como parámetro de una función:
+
+    si escribes: objeto.arregloDelObjeto.push(), no servirá, ya que está procesando el segundo punto como propiedad dentro de .arregloDelObjeto en vez de metodo
+
+    si en la función procesar(objeto, propiedad) intentas usar la propiedad escribiendo "objeto.propiedad" no servirá, ya que "propiedad" es una variable que contiene el nombre de la propiedad como un string
+
+Notación de corchetes:
+También se puede usar para asignar valores a una propiedad ya existente o nueva de el objeto:
+
+    objeto.nuevaPropiedad = "hola"
+
+Pero también se usa cuando quieres usar un método en alguna propiedad del objeto:
+
+    objeto["propiedad"].push funciona
+    en la funcion "procesarTexto(objeto, texto) debes escribir "objeto[texto]" para acceder a la propiedad, ya que "texto" es una variable que contiene el verdadero nombre de la propiedad del objeto como un string
