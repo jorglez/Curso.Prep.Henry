@@ -1,0 +1,34 @@
+Prototypes:
+es el espacio donde se guardan las funciones que un objeto puede ejecutar, todos los objetos tienen un prototype.
+Para crear una nueva función en ese espacio hay que escribir el siguiente código:
+
+    NombreObj.prototype.nombreFuncion = function(){
+        código
+        return resultado
+    }
+
+Si la función la escribes dentro de una clase puedes hacerlo de la siguiente forma:
+
+    class Objeto {
+        constructor(var1, var2){
+
+        }
+        funcion(){
+            código
+            return resultado
+        }
+    }
+
+Constructors:
+Los constructores indican las variables que un objeto va a recibir para tomarlas como sus características. Y se le asignan al objeto actual por medio de la palabra reservada "this":
+
+    class Objeto{
+        constructor(nombre, edad){
+            this.nombre = nombre
+            this.edad = edad
+        }
+
+    }
+    objeto = new Objeto("Paco", 25)
+
+Cuando creamos un nuevo objeto, mandamos como valores un nombre y una edad, las cuales se asignaran al objeto nuevo por medio del constructor
