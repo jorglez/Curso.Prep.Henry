@@ -1,0 +1,10 @@
+Callback:
+digamos que las habitaciones de una casa tienen una función específica, la cocina es para preparar alimentos, el comedor para sentarte a comer, la habitación para dormir, etc. Imagínate que quieres tomar tu plato e irte a comer a tu habitación, entonces tendrías que tomar la función de "comer" que está en la cocina y usarla en tu habitación. Así funcionan los Callbacks, tomas una función que originalmente está en otro lugar y la usas como argumento en otra función para que se ejecute en ella, así te ahorras tener que escribir la función para comer también en la habitación:
+
+    function comer(){return "estoy comiendo"}
+
+    function habitacion(){
+        return comer()
+    }
+    
+    habitacion(comer)
