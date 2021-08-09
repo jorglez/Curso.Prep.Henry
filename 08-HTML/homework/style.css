@@ -1,0 +1,44 @@
+h1 {
+  color: cornflowerblue;
+}
+
+img {
+  width: 400px;
+  margin: auto;
+}
+body{
+  background-image: url("https://thumbs.dreamstime.com/b/wood-table-top-light-gold-cafe-restaurant-background-selective-focus-118715853.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body div, h1, h3, h4, li{
+  margin: auto;
+  text-align: center;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  padding: 50px;
+  border: maroon 5px dashed;
+  border-radius: 10px;
+  background-color: darkgreen;
+}
+
+#spanId {
+  display: block;
+  font-size: 18px;
+  margin: 50px;
+}
